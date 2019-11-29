@@ -16,7 +16,8 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="400dp"
+            android:scaleType="centerInside"
             android:layout_marginTop="15dp"
             app:srcCompat="@drawable/ic_launcher_background" />
 
@@ -27,5 +28,11 @@
             android:layout_marginLeft="100dp"
             android:layout_marginTop="30dp"
             android:text="Capture" />
+
+        <Button
+            android:id="@+id/img_pick_btn"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Gallery" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
